@@ -96,3 +96,17 @@ footer {
   float:left;
   width:20%;
 }
+
+.footer-top p { 
+  color:#969696;
+  text-transform:uppercase; 
+  font-size:12px;
+  font-weight:700;
+}
+
+.footer-top h3 {
+  text-transform:uppercase; 
+  font-size:12px; 
+  font-weight:700;
+}
+  
