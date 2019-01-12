@@ -33,7 +33,6 @@
 }
 .SlideShow {
   text-align:center;
-  padding:20px;
   opacity: 0;
   visibility: hidden;
   transition: opacity 1s ease;
