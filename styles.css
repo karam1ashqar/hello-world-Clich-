@@ -21,5 +21,9 @@
 .Announcment a {
 
   color:#FFFFFF;
-  cursor:pointer;
+  cursor:pointer
+    
+  a:hover {
+  text-decoration: underline;
+  }
 }
