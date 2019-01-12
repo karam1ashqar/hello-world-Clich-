@@ -63,3 +63,12 @@
   font-weight:500;
   line-height:1.18em;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right:0;
+  background-color: #123456;
+  color: white;
+  text-align: center;
+}
