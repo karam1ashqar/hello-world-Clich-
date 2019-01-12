@@ -23,9 +23,9 @@
   color:#FFFFFF;
   cursor:pointer;
     
- &:hover {
-  text-decoration: underline;
-  }
+}
+.Underline:hover {
+    text-decoration: underline;
 }
  .Logo {
    text-align:center;
