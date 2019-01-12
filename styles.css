@@ -64,12 +64,22 @@
   line-height:1.18em;
 }
 
-html{ height:100%; }
-body{ min-height:100%; padding:0; margin:0; position:relative; }
+html {
+  height:100%; 
+}
+body {
+  min-height:100%; 
+  padding:0; 
+  margin:0; 
+  position:relative; 
+}
 
-body::after{ content:''; display:block; height:100px; }
-
-footer{ 
+body::after {
+  content:''; 
+  display:block;
+  height:100px; 
+}
+footer { 
   position:absolute; 
   bottom:0; 
   width:100%; 
@@ -78,3 +88,8 @@ footer{
   background-color:#123456;
 }
 
+.col-1 {
+      padding: 0 10px;
+      float:left;
+      width:20%;
+}
