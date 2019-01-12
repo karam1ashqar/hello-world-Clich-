@@ -64,10 +64,11 @@
   line-height:1.18em;
 }
 .footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   right:0;
+  height:150px;
   background-color: #123456;
   color: white;
   text-align: center;
