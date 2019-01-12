@@ -23,7 +23,7 @@
   color:#FFFFFF;
   cursor:pointer
     
-  a:hover {
+  a:hover & {
   text-decoration: underline;
   }
 }
