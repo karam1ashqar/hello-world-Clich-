@@ -34,7 +34,6 @@
 .SlideShow {
   text-align:center;
   opacity: 0;
-  height:350px;
   visibility: hidden;
   transition: opacity 1s ease;
   -webkit-transition: opacity 1s ease;
