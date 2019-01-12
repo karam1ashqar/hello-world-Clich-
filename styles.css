@@ -1,14 +1,22 @@
 .Announcment {
 
-background-color:#141414;
+  background-color:#141414;
+  position:absolute;
+  top:0px;
+  right:0px;
+  left:0px;
+  height:40px;
 
 }
 
-.Announcment h3 {
+.Announcment p {
 
   text-transform:uppercase;
   text-align:center;
   color:#FFFFFF;
+  letter-spacing: 0.5em;
+  margin: 0 0 10px;
   font-family:Montserrat;
+  font-weight:500;
 
 }
