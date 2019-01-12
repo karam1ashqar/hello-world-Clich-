@@ -100,7 +100,6 @@ footer {
 
 .footer-top p { 
   color:#969696;
-  text-transform:uppercase; 
   font-size:12px;
   font-weight:700;
 }
@@ -116,4 +115,9 @@ footer {
   width:100%;
   padding: 50 100px;
   height:42px;
+}
+.footer-bottom p {
+  color:#969696;
+  font-size:12px;
+  font-weight:700;
 }
