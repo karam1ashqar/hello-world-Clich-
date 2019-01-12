@@ -89,7 +89,8 @@ footer {
 }
 
 .footer-top {
-      padding: 50 100px;
+  padding: 50 100px;
+  height:auto;
 }
 .col-1, .col-2, .col-3 {
   padding: 0 10px;
