@@ -86,10 +86,11 @@ footer {
   height:100px; 
   color:white;
   background-color:#123456;
+      
 }
 
 .col-1 {
-      padding: 0 10px;
+      padding: 0 100px;
       float:left;
       width:20%;
 }
