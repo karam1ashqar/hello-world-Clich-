@@ -6,6 +6,9 @@ background-color:#141414;
 
 .Announcment h3 {
 
-color:#FFFFFF;
+  text-transform:uppercase;
+  text-align:center;
+  color:#FFFFFF;
+  font-family:Montserrat;
 
 }
