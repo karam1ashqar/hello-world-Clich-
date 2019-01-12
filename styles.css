@@ -34,16 +34,15 @@
 .SlideShow {
   text-align:center;
   opacity: 0;
+  max-height:450px;
   visibility: hidden;
   transition: opacity 1s ease;
   -webkit-transition: opacity 1s ease;
 }
-  
   .SlideShow.slick-initialized {
     visibility: visible !important;
     opacity: 1 !important;    
 }
-
 .SlideContent {
   max-height:450px;
 }
