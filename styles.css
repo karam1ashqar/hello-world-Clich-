@@ -23,10 +23,11 @@
   color:#FFFFFF;
   cursor:pointer;
     
-  a:hover & {
+ &:hover {
   text-decoration: underline;
   }
 }
  .Logo {
    text-align:center;
+   padding:15px;
 }
