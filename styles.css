@@ -33,10 +33,7 @@
 }
 .SlideShow {
   text-align:center;
-  margin:20px auto;
   padding:20px;
-  max-height:450px;
-  img{display: block;margin:auto;}
   opacity: 0;
   visibility: hidden;
   transition: opacity 1s ease;
@@ -46,4 +43,8 @@
   .SlideShow.slick-initialized {
     visibility: visible !important;
     opacity: 1 !important;    
+}
+
+.SlideContent {
+  max-height:450px;
 }
