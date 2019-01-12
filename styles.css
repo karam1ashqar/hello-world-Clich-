@@ -88,13 +88,13 @@ footer {
       
 }
 
-.col-1 {
+.footer-top {
       padding: 50 100px;
       float:left;
       width:20%;
 }
-.col-2 {
-  padding 0 10px;
+.col-1, col-2 {
+  padding: 0 10px;
   float:left;
   width:20%;
 }
