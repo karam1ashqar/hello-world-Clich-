@@ -1,16 +1,15 @@
 .Announcment {
-
+  
   background-color:#141414;
   position:absolute;
   top:0px;
   right:0px;
   left:0px;
   height:35px;
-
 }
 
 .Announcment p {
-
+  
   text-transform:uppercase;
   text-align:center;
   color:#FFFFFF;
@@ -18,5 +17,8 @@
   font-size:11px;
   font-family:Montserrat;
   font-weight:500;
+}
+.Announcment a {
 
+  color:#FFFFFF;
 }
