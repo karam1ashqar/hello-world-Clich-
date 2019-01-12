@@ -43,7 +43,7 @@
   -webkit-transition: opacity 1s ease;
 }
   
-  .Slideshow.slick-initialized {
+  .SlideShow.slick-initialized {
     visibility: visible !important;
     opacity: 1 !important;    
 }
