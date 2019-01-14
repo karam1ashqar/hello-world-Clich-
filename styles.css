@@ -123,3 +123,12 @@ footer {
 .footer-bottom a {
   cursor:pointer;
 }
+.slick-arrow.slick-prev {
+  left: 100px;
+  background: white; 
+  z-index: 1;
+}
+.slick-arrow.slick-next {
+  right: 100px;
+  background: white;
+}
