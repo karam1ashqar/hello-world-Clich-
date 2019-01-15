@@ -43,6 +43,10 @@
     opacity: 1 !important;    
 }
 
+	.SlideContent {
+				height:70px !important;
+	}
+
 .home-paragraph h3 {
   color:#123456;
   text-align:center;
