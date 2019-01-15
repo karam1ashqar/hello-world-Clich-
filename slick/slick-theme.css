@@ -36,7 +36,6 @@
 
     cursor: pointer;
 
-    color: transparent;
     border: none;
     outline: none;
     background: transparent;
@@ -86,14 +85,6 @@
     right: -25px;
     left: auto;
 }
-.slick-prev:before
-{
-    content: 'â†';
-}
-[dir='rtl'] .slick-prev:before
-{
-    content: 'â†’';
-}
 
 .slick-next
 {
@@ -103,14 +94,6 @@
 {
     right: auto;
     left: -25px;
-}
-.slick-next:before
-{
-    content: 'â†’';
-}
-[dir='rtl'] .slick-next:before
-{
-    content: 'â†';
 }
 
 /* Dots */
