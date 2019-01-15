@@ -18,7 +18,7 @@
   </head>
   <body>
     
-    <div class="SlideShow wow fadeInUp" data-wow-duration="2s">
+    <div class="SlideShow flexslider wow fadeInUp" data-wow-duration="2s">
   <div class="SlideContent">   
 	  <img src="Slideshow1.jpg" alt="Website Logo" width="100%" height="auto" >
 	  	  	  <h2 style="position:sticky; bottom:50%; color:white;"> Hey1 </h2>
@@ -51,61 +51,11 @@
 <script type="text/javascript" src="slick/slick.min.js"></script>
 	  
 	    <script type="text/javascript">
-    $(document).ready(function(){
-      $('.SlideShow').slick({
-         slidesToShow: 1,
-         slidesToScroll: 1,
-	 arrows:true,
-         autoplay: true,
-	      mobileFirst:true,
-	 pauseOnHover:false,
-	 prevArrow: '<span class="slick-prev fa fa-angle-left"></span>',
-         nextArrow: '<span class="slick-next fa fa-angle-right"></span>',
-	 dots:true,
-	 swipeToSlide:true,
-	 lazyLoad: 'progressive',
-         centerMode: true,
-         autoplaySpeed: 3500,
-	        responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-      });
-    }); 
-		  
-		  		var $carousel = $('.SlideShow');
-$(document).on('keydown', function(e) {
-                if(e.keyCode == 37) {
-                    $carousel.slick('slickPrev');
-                }
-                if(e.keyCode == 39) {
-                    $carousel.slick('slickNext');
-                }
-            });   
+    $(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
   </script>
 
 	  	<br><br>
