@@ -61,7 +61,10 @@
 		   var i = 0;
 
 		    function change() {
-			    
+			   if( time == -1 )
+			    {
+				    return;
+			    }
 			document.slide.src = images[i];
 				    
 			    
@@ -74,10 +77,9 @@
 			    }
 
 			    
-			    if( time != -1 )
-			    {
+
 			    setTimeout('change()', time );
-			    }	    
+			    
 		    }
 		    		    		    window.onload = change;
 
