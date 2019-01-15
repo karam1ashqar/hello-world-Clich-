@@ -58,26 +58,29 @@
 		    }
 		    
                    var images = ['Slideshow1.jpg','Logo.png','Slideshow1.jpg'];
-		    
-		    function change() {
+		   var i = 0;
 
-			    for( var i = 0; i < images.length; i++ ) 
-			    {
+		    function change() {
+			    
 			document.slide.src = images[i];
 				    
-				    if( i == ( images.length - 1 ) )
+			    
+				    if( i < images.length )
 				    {
-					    i = 0;
+					   i++
 				    }
+			    else {
+				    i = 0;
+			    }
 
 			    }
 			    if( time != -1 )
 			    {
 			    setTimeout('change()', time );
 			    }
-		    }
+		    
 		    		    window.onload = change;
-
+		    }
   </script>
 	  	<br><br>
 	</body>
