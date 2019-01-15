@@ -51,11 +51,26 @@
 <script type="text/javascript" src="slick/slick.min.js"></script>
 	  
 	    <script type="text/javascript">
-    $(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"
-  });
-});
+
+		    var time = 2500;
+                   var images['Slideshow1.jpg'];
+		    
+		    windows.onload = function change() {
+			    			    
+			    
+			    for( var i = 0; i > images.length; i++ ) 
+			    {
+			document.slide.src = images[i];
+				    
+				    if( i == images.length )
+				    {
+					    i = 0;
+				    }
+
+			    }
+			    setTimeout('change', time );	    
+		    }
+		    
   </script>
 
 	  	<br><br>
