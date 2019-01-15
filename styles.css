@@ -33,19 +33,8 @@
 }
 .SlideShow {
   text-align:center;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 1s ease;
-  -webkit-transition: opacity 1s ease;
-}
-  .SlideShow.slick-initialized {
-    visibility: visible !important;
-    opacity: 1 !important;    
 }
 
-	.SlideContent {
-				height:70px !important;
-	}
 
 .home-paragraph h3 {
   color:#123456;
@@ -124,13 +113,4 @@ footer {
 
 .footer-bottom a {
   cursor:pointer;
-}
-.slick-arrow.slick-prev {
-  left: 100px;
-  background: white; 
-  z-index: 1;
-}
-.slick-arrow.slick-next {
-  right: 100px;
-  background: white;
 }
