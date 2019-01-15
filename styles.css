@@ -42,9 +42,7 @@
     visibility: visible !important;
     opacity: 1 !important;    
 }
-.SlideContent {
-  max-height:450px;
-}
+
 .home-paragraph h3 {
   color:#123456;
   text-align:center;
