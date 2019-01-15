@@ -65,14 +65,17 @@
 		    
 		   function start() {
 			    if( time != -1 )
+			    {
 				    return;
-			   
+			    }
 			    time = 2500;
 			   change();
 		    }  
 		    function Stop() {
 			    if( time == -1 )
+			    {
 				    return;
+			    }
 			    
 			    time = -1;
 		    }
@@ -81,9 +84,7 @@
 		   var i = 0;
 
 		    function change() {
-			   if( time == -1 )
-				    return;
-			    
+	
 			document.slide.src = images[i];
 				    
 			    
