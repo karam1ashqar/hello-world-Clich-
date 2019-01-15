@@ -20,7 +20,8 @@
     
     <div class="SlideShow wow fadeInUp" data-wow-duration="2s">
  <img name="slide" class="SlideContent" width="100%" height"auto" style="text-align:center;">
-
+<button label="Stop Slideshow" onclick="Stop()">
+	
     </div>
     
 	  <br><br><br>
@@ -34,9 +35,19 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 	  
+	  
+	  
 	    <script type="text/javascript">
 
+		    
+		    
 		    var time = 2500;
+		    
+		    function Stop() {
+			    
+			    time = -1;
+		    }
+		    
                    var images = ['Slideshow1.jpg','Slideshow1.jpg','Slideshow1.jpg'];
 		    
 		    function change() {
@@ -51,7 +62,10 @@
 				    }
 
 			    }
-			    setTimeout('change()', time );	    
+			    if( time > -1 )
+			    {
+			    setTimeout('change()', time );
+			    }
 		    }
 		    		    window.onload = change;
 
