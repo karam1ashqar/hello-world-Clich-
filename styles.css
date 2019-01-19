@@ -33,6 +33,7 @@
 }
 .SlideShow {
   text-align:center;
+  position:relative;
 }
 
 
@@ -113,4 +114,31 @@ footer {
 
 .footer-bottom a {
   cursor:pointer;
+}
+
+#arrow-right {
+  position:absolute; 
+  zoom:3.5;
+  color:white;
+  right:1%;
+ 
+}
+#arrow-left {
+  position:absolute; 
+  zoom:3.5;
+  color:white;
+  left:1%;
+ 
+}
+
+@media screen and (min-width: 769px) {
+
+    #arrow-right, #arrow-left { top:35%; }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #arrow-right, #arrow-left {  top:12%; !important }
+
 }
