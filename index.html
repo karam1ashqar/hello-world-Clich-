@@ -88,15 +88,17 @@
 			    if ( i == 0 )
 			    {
 				    i = ( images.length - 2 );
-				    return change();
+			    }
+			    else if ( i == 1 )
+			    {
+				    i = ( images.length - 1 );
 			    }
 			    else
 			    {
 				    i = i - 2;
-				    return change();
-
 			    }
-				    
+ 				    return change();
+  
 		   }
 		    function change() {
 			   if( time == -1 && !Changedfromarrow )
