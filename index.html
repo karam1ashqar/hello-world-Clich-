@@ -71,7 +71,7 @@
 			    time = -1;
 		    }
 		    
-                   var images = ['Slideshow1.jpg','Logo.png','Slideshow1.jpg'];
+                   var images = ['Slideshow1.jpg','Logo.png'];
 		   var i = 0;
 
 		    function Next() {
@@ -99,7 +99,7 @@
 				    i = 0;
 			    }
 
-			    if( Changedfromarrow )
+			    if( Changedfromarrow && time != -1 )
 			    {
 				    time = 2500;
 			    }
