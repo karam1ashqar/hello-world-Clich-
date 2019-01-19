@@ -55,7 +55,7 @@
 		    
 		    var time = 2500;
 		    
-		//    var Changedfromarrow = false;
+		    var Changedfromarrow = false;
 
 		    
 		   function Start() {
@@ -76,16 +76,16 @@
 
 		    function Next() {
 			   i++;
-			//   Changedfromarrow = true;
+			   Changedfromarrow = true;
 			    return change();
 		   }
 		    function Prev() {
 			   i--;
-			 //  Changedfromarrow = true;
+			   Changedfromarrow = true;
 			    return change();
 		   }
 		    function change() {
-			   if( time == -1 )
+			   if( time == -1 || !Changedfromarrow )
 				    return;
 			    
 			document.slide.src = images[i];
@@ -99,12 +99,13 @@
 				    i = 0;
 			    }
 
-			    
+			    if( Changedfromarrow )
+				    time = 2500;
 
 			    setTimeout('change()', time );
 			    
 		    }
-		    		    		    window.onload = change;
+ window.onload = change;
 
   </script>
 	  	<br><br>
