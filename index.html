@@ -83,17 +83,20 @@
 			    return change();
 		   }
 		    function Prev() {
+			 Changedfromarrow = true;
+
 			    if( i == 0 )
 			    {
 				    i = ( images.length - 1 ); 
+				    return change();
 			    }
 			    else
 			    {
 				    i--;    
+				    return change();
+
 			    }
 				    
-			   Changedfromarrow = true;
-			    return change();
 		   }
 		    function change() {
 			   if( time == -1 && !Changedfromarrow )
