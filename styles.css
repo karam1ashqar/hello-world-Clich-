@@ -53,6 +53,10 @@
   cursor: pointer;
 }
 
+.home-paragraph {
+  text-align:center;
+}
+
 .home-paragraph h3 {
   color:#123456;
   text-align:center;
