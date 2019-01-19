@@ -67,7 +67,6 @@
 .home-paragraph p {
   white-space:normal;
   display:inline-block;
-  width:500px; 
   word-wrap:break-word; 
   margin-top:5;
   text-align:center; 
@@ -166,6 +165,7 @@ footer {
 @media screen and (min-width: 769px) {
 
     #arrow-right, #arrow-left { top:35%; }
+	.home-paragraph p {   width:500px;  }
 
 }
 
