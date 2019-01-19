@@ -54,20 +54,23 @@
 		    
 		    
 		    var time = 2500;
-		    
+		    var t;
 		    var Changedfromarrow = false;
 
 		    
 		   function Start() {
 			    if( time != -1 )
 				    return;
-			    time = 2500;
+			   
+			   clearTimeout(t);
+			   time = 2500;
 			   change();
 		    }  
 		    function Stop() {
 			    if( time == -1 )
 				    return;
 			    
+			    clearTimeout(t);
 			    time = -1;
 		    }
 		    
@@ -101,11 +104,12 @@
 
 			    if( Changedfromarrow && time != -1 )
 			    {
+				    clearTimeout(t);
 				    time = 2500;
 			    }
 
 			    Changedfromarrow = false;
-			    setTimeout('change()', time );
+			    t = setTimeout('change()', time );
 			    
 		    }
  window.onload = change;
