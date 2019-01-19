@@ -28,8 +28,8 @@
   <body>
     
     <div class="SlideShow wow fadeInUp" data-wow-duration="2s">
-	    <i class="fa fa-angle-right" id="arrow-right" ></i>	
-	    <i class="fa fa-angle-left" id="arrow-left" ></i>	
+	    <i class="fa fa-angle-right" id="arrow-right" onclick="Next();" ></i>	
+	    <i class="fa fa-angle-left" id="arrow-left"  onclick="Prev();" ></i>	
 
  <img name="slide" class="SlideContent" width="100%" height"auto" >
 	    <button class="SSbtn" onclick="Stop()">Stop Slideshow</button>
@@ -55,6 +55,9 @@
 		    
 		    var time = 2500;
 		    
+		//    var Changedfromarrow = false;
+
+		    
 		   function Start() {
 			    if( time != -1 )
 				    return;
@@ -71,6 +74,16 @@
                    var images = ['Slideshow1.jpg','Logo.png','Slideshow1.jpg'];
 		   var i = 0;
 
+		    function Next() {
+			   i++;
+			//   Changedfromarrow = true;
+			    return change();
+		   }
+		    function Prev() {
+			   i--;
+			 //  Changedfromarrow = true;
+			    return change();
+		   }
 		    function change() {
 			   if( time == -1 )
 				    return;
