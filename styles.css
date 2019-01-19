@@ -36,6 +36,22 @@
   position:relative;
 }
 
+.SlideContent {
+  text-align:center;
+}
+
+.SSbtn {
+  background-color: #141414; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 .home-paragraph h3 {
   color:#123456;
