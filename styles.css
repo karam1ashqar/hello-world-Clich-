@@ -112,12 +112,6 @@ footer {
 
 .footer-top {
   padding: 50 100px;
-  height:90px;
-}
-.col-1, .col-2, .col-3 {
-  padding: 0 10px;
-  float:left;
-  width:20%;
 }
 
 .footer-top p { 
@@ -173,11 +167,22 @@ footer {
 
     #arrow-right, #arrow-left { top:35%; }
 	.home-paragraph p {   width:500px;  }
+	.col-1, .col-2, .col-3 {
+  padding: 0 10px;
+  float:left;
+  width:20%;
+}
+	.footer-top {
+  height:90px;
+}
 
 }
 
 @media screen and (max-width: 768px) {
 
     #arrow-right, #arrow-left {  top:12%; !important }
+	.col-1, .col-2, .col-3 {
+  padding: 10 10px;
+}
 
 }
