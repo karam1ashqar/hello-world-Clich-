@@ -18,12 +18,22 @@
   font-family:Montserrat;
   font-weight:500;
 }
+
+.Announcment a {
+	  color:#FFFFFF;
+}
+
+.footer-top a {     
+	color: #969696;	
+}
+
 .Announcment, .footer-top a {
 
-  color:#FFFFFF;
+  text-decoration:none;
   cursor:pointer;
     
 }
+
 .Underline:hover {
   text-decoration: underline;
 }
