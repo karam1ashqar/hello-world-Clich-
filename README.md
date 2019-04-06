@@ -6,4 +6,4 @@
 * footer - CSS
 * about me - CSS
 
-*We were asked to implement what we have learned in codewars and freecodecamp and make an image carousel with a mini portfolio
+*We were asked to implement what we have learned in codewars and freecodecamp and make an image carousel with a mini portfolio*
